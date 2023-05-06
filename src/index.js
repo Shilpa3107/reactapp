@@ -10,11 +10,13 @@ const links = "https://www.pxfuel.com/en/query?q=bts+cute+pics";
 ReactDOM.render(
 <>
 <h1 className = "heading"> My name is Shilpa Sinha</h1>
+<div className = "img_div">
 <a href = {links} target = "_blankpage">
-<img src = {img1} alt = "Jungkook" width = "200" height = "200"/>
-<img src = {img2} alt = "BTS"width = "200" height = "200"/>
-<img src = {img3} alt = "BTS"width = "200" height = "200"/>
+<img src = {img1} alt = "Jungkook" />
+<img src = {img2} alt = "BTS"/>
+<img src = {img3} alt = "BTS"/>
 </a>
+</div>
 </>,
 document.getElementById("root")
 );
