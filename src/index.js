@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {add,sub,div,mult} from './App';
+import {add,sub,div,mult} from './Calc';
 
 ReactDOM.render(
 <>
