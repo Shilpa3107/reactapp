@@ -2,23 +2,21 @@
     margin : 0;
     padding : 0;
     box-sizing : border-box;
+    background-color : rgb(100, 227, 221);
  }
  .heading{
-    text-align: center;
-    color :#fa9191;
-    text-transform: capitalize;
-    font-weight: bold;
-    text-shadow :0px 2px 4px #ffe9c5;
-    margin: 50px;
-    font-family: 'Josefin Sans', sans-serif;
+    width : 400px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 10px 10px 10px 10px;
+    margin : 10px;
+    padding: 20px;
+    box-align: start;
+    position:absolute;
+    top: 30%;
+    left: 30%;
  }
- .img_div{
-    display :flex;
-    justify-content: center;
- }
- .img_div img{
-    width : 200px;
-    height : 300px;
-    margin : auto;
-    
-     }
+.heading{
+   color :#fa9191;
+   font-weight: bold;
+   margin: 70px;
+}
