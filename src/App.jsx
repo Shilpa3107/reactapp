@@ -1,11 +1,16 @@
-import Heading from './Heading';
+import React from 'react';
 
-function App(){
-    return (
-        <>
-        <Heading/>
-        
-        </>
-    );
+
+function add(x,y){
+    return (x+y);
 }
-export default App;
+function sub(x,y){
+    return (x-y);
+}
+function div(x,y){
+    return (x/y);
+}
+function mult(x,y){
+    return (x*y);
+}
+ export {add,sub,div,mult};
