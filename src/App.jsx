@@ -9,6 +9,7 @@ function App(){
          {Data.map((val) => {
             return(
         <Card 
+        key = {val.id}
         imgsrc = {val.imgsrc}
         sernam = {val.sernam}
         link = {val.link}
