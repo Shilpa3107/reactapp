@@ -10,7 +10,7 @@ function Card(props){
            <div className = "card">
                 <Image imgsrc={props.imgsrc}/>
                 <div className = "card__info">
-                    <span className = "card__category">A NETFLIX ORIGINAL SERIES</span>
+                    <span className = "card__category">{props.sr}</span>
                     <h3 className = "card__title"> {props.sernam}</h3>
                     <a href = {props.link} target = "_blank">
                          <button> WATCH NOW</button>
